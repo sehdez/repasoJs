@@ -1,0 +1,29 @@
+Ternario:
+en lugar de:
+if ( condicion ){
+    return true;
+}else{
+    return false;
+}
+hacer:
+( condición )
+? return true;
+: return false;
+
+promesa:
+return new Promise ( ( resolve, reject ) =>{
+    const empleado = this.empleados.find( e => e.id === id )
+    ( condicion )
+        ? resolve( empleado );
+        : reject( 'Mensaje de error');
+})
+
+
+timer:
+setTimeout ( callback, intervalo )
+ejemplo:
+
+setTimeout ( () =>{
+	console.log('Hola Mundo');
+}, 3000 );
+
